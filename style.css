@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+:root {
+  text-align: center;
+
+  background-color: #f9fcf6;
+  --font-details: "Lato", sans-serif;
+  --font-heading: "Roboto Slab", serif;
+}
+
+body {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.header-title {
+  font-size: 3rem;
+  padding: 1.5rem;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  font-family: var(--font-heading);
+  border-radius: 0.5rem;
+  background: radial-gradient(circle at bottom, #caf1a7, #1cbb79);
+}
+
+section {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--font-details);
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-spacing: 2px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 0.5rem;
+}
+
+.buttons-alignemnt {
+  padding-top: 1.5rem;
+}
+
+caption {
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  padding: 0.5rem;
+  font-family: var(--font-details);
+}
+
+input {
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: var(--font-details);
+}
+input:valid {
+  border: 1px solid green;
+  animation-duration: 0.4s;
+}
+input:invalid {
+  border: 1px solid red;
+  animation-duration: 0.4s;
+}
+
+.check {
+  background-color: #007bff;
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #007bff;
+  padding: 0.8rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-heading);
+}
+
+.check:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+
+.reset {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #6c757d;
+  padding: 0.8rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-heading);
+}
+
+.reset:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+
+.error {
+  color: red;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-style {
+  font-size: 1.5rem;
+
+  padding: 2rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: var(--font-heading);
+
+  background: radial-gradient(circle at bottom, #caf1a7, #1cbb79);
+}

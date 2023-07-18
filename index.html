@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-title">Cash Register App</div>
+  </header>
+  <main>
+    <div class="container">
+      <p class="description">Enter the bill amount and the cash received</p>
+      <!-- Section for calculator -->
+      <section>
+        <!-- input field for bill amount -->
+        <label for="bill-amount">Bill Amount:</label>
+        <input id="bill-amount" type="number" required placeholder="Amount in Number" />
+
+        </p>
+        <!-- input field for cash received  -->
+        <label for="cash-received">Cash Received:</label>
+        <input id="cash-received" type="number" required placeholder="Cash Received in Number" />
+
+        <div class="buttons-alignemnt">
+
+          <button class="check" id="check-button">Check</button>
+          <button class="reset" id="reset-button">Reset</button>
+          <p class="error">
+
+          </p>
+        </div>
+      </section>
+      <!-- Section for table of notes -->
+      <section>
+        <table>
+          <caption>
+            Return Change:
+          </caption>
+          <tr>
+            <th>Number Of Notes</th>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+            <td class="note-count"></td>
+          </tr>
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>1000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>50</td>
+            <td>20</td>
+            <td>10</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </section>
+  </main>
+  <footer class="footer-style">Make Money, Not Mistakes</footer>
+  </div>
+  </header>
+  <script src="logic.js"></script>
+</body>
+
+</html>
